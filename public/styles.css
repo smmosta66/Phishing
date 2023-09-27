@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    padding: 20px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: #1877f2;
+}
+
+.slogan {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.login-button:hover {
+    background-color: #0e5ace;
+}
+
+a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.divider {
+    margin: 12px 0;
+    border-top: 1px solid #ddd;
+}
+
+.no-social-login {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.no-social-login a {
+    font-weight: bold;
+    color: #1877f2;
+}
+
+.no-social-login a:hover {
+    text-decoration: underline;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    z-index: 1;
+}
+
+.popup-content {
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
